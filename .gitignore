@@ -12,7 +12,6 @@
 *.sch-bak
 *~
 _autosave-*
-\#auto*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
@@ -29,8 +28,7 @@ fp-info-cache
 *.xml
 *.csv
 
-# lengthMatching configuration files
-lengthMatching.json
-
-#step models
-*.step
+fab
+log
+blender_renders
+*.blend1
