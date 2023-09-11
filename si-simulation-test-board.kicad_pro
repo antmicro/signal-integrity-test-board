@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.508
         }
       },
@@ -55,7 +55,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "track_dangling|109800000|86000000|ad9c2fd6-28b8-494e-a8f0-7731e31dc99a|00000000-0000-0000-0000-000000000000",
+        "track_dangling|114007500|70707989|e72fdd2d-2e59-4515-b5f9-e517b96384ed|00000000-0000-0000-0000-000000000000",
+        "track_dangling|119000000|66900000|506c704b-69fa-4754-81e1-98815f3171f3|00000000-0000-0000-0000-000000000000",
+        "track_dangling|124057500|70757500|d694e01e-da8b-4a9b-9c88-2dc06d68572a|00000000-0000-0000-0000-000000000000",
+        "track_dangling|137000000|66007500|593d5fb2-eae5-45e7-8f6e-2cca4c991900|00000000-0000-0000-0000-000000000000",
+        "track_dangling|141675000|75980000|13b3773a-848c-4fb5-81ce-aa20f33e8431|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -85,7 +92,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
@@ -110,7 +117,7 @@
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.09999999999999999,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
