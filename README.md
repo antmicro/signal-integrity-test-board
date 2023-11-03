@@ -7,19 +7,19 @@ Copyright (c) 2023 [Antmicro](https://www.antmicro.com)
 ## Overview
 
 This project contains open hardware design files for a test board implementing various routing topologies.
-The board can be used for calibrating and comparing measurements of signal propagation properties with Vector Network Analyzers (VNA's).
-It can also be used for doing SI, EMI, EMC simulations with field solvers.
+The board can be used for calibrating and comparing measurements of signal propagation properties with Vector Network Analyzers (VNAs).
+It can also be used for SI, EMI or EMC simulations with field solvers.
 The board was designed in KiCad 6.x.
 
 ## Project structure
 
-The main directory contains the KiCad design files, LICENSE and README.
+The main directory contains the KiCad design files, a LICENSE and a README.
 The remaining files are stored in the following directories:
 
 * ``img`` - contains graphics for this README
 * ``doc`` - contains generated schematics and other documentation
 * ``lib`` - contains KiCad component library
-* ``assets`` - contains visual content used for showcasing the board at [Open Hardware Portal(https://openhardware.antmicro.com)
+* ``assets`` - contains visual content used for showcasing the board on [Open Hardware Portal](https://openhardware.antmicro.com)
 
 ## Key features
 
