@@ -2,7 +2,7 @@
 
 Copyright (c) 2023 [Antmicro](https://www.antmicro.com)
 
-![Signal Integrity Testboard](/img/si-testboard-vis.png)
+![Signal Integrity Testboard](/img/si-testboard.png)
 
 ## Overview
 
