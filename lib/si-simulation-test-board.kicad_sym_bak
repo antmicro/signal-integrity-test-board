@@ -1,0 +1,771 @@
+(kicad_symbol_lib 
+    (version 20211014) 
+    (generator kicad_symbol_editor) 
+  (symbol "C_template_name_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 20.32 -5.08 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+    )
+    (property "Value" "C_template_name_0402" (id 1) (at 20.32 -10.16 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (id 2) (at 20.32 -12.7 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "template_datasheet" (id 3) (at 20.32 -15.24 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "MPN" "template_MPN" (id 4) (at 20.32 -17.78 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Manufacturer" "template_manufacturer" (id 5) (at 20.32 -20.32 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (id 6) (at 20.32 -22.86 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (id 7) (at 20.32 -25.4 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Val" "template_value" (id 8) (at 20.32 -7.62 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+    )
+    (property "Voltage" "template_voltage" (id 9) (at 20.32 -27.94 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Dielectric" "template_dielectric" (id 10) (at 20.32 -30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ki_description" "template_value capacitor in 0402 package with template_voltage max voltage and template_dielectric dielectric" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C_template_name_0402_0_1"
+      (polyline
+        (pts
+          (xy 2.032 -1.524)
+          (xy 2.032 1.524)
+        )
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.048 -1.524)
+          (xy 3.048 1.524)
+        )
+        (stroke (width 0.3302) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "C_template_name_0402_1_1"
+      (pin passive line (at 0 0 0) (length 2.032)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 5.08 0 180) (length 2.032)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "R_template_name_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+    (property "Reference" "R" (id 0) (at 20.32 -5.08 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+    )
+    (property "Value" "R_template_name_0402" (id 1) (at 20.32 -12.7 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Footprint" "antmicro-footprints:R_0402_1005Metric" (id 2) (at 20.32 -15.24 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "template_datasheet" (id 3) (at 20.32 -17.78 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "MPN" "template_MPN" (id 4) (at 20.32 -20.32 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Manufacturer" "template_manufacturer" (id 5) (at 20.32 -22.86 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (id 6) (at 20.32 -25.4 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (id 7) (at 20.32 -27.94 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Val" "template_value" (id 8) (at 20.32 -7.62 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+    )
+    (property "Tolerance" "template_tolerance" (id 9) (at 20.32 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ki_description" "template_value resistor in 0402 package with template_tolerance tolerance" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "R_template_name_0402_0_1"
+      (rectangle (start 0.635 0.889) (end 4.445 -0.889)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "R_template_name_0402_1_1"
+      (pin passive line (at 0 0 0) (length 0.635)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 5.08 0 180) (length 0.635)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "R_template_name_0201" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+    (property "Reference" "R" (id 0) (at 20.32 -5.08 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+    )
+    (property "Value" "R_template_name_0201" (id 1) (at 20.32 -12.7 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Footprint" "antmicro-footprints:R_0201" (id 2) (at 20.32 -15.24 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "template_datasheet" (id 3) (at 20.32 -17.78 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "MPN" "template_MPN" (id 4) (at 20.32 -20.32 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Manufacturer" "template_manufacturer" (id 5) (at 20.32 -22.86 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (id 6) (at 20.32 -25.4 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (id 7) (at 20.32 -27.94 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Val" "template_value" (id 8) (at 20.32 -7.62 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+    )
+    (property "Tolerance" "template_tolerance" (id 9) (at 20.32 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ki_description" "template_value resistor in 0201 package with template_tolerance tolerance" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "R_template_name_0201_0_1"
+      (rectangle (start 0.635 0.889) (end 4.445 -0.889)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "R_template_name_0201_1_1"
+      (pin passive line (at 0 0 0) (length 0.635)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 5.08 0 180) (length 0.635)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+    (symbol "GND" 
+        (power) 
+        (pin_numbers hide) 
+        (pin_names hide) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR" 
+            (id 0) 
+            (at 8.89 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 8.89 -5.08 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 8.89 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 8.89 -12.7 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 4) 
+            (at 8.89 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 5) 
+            (at 8.89 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (symbol "GND_1_1" 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 -1.27) 
+                    (xy 1.27 -1.27) 
+                    (xy 0 -2.54) 
+                    (xy -1.27 -1.27) 
+                    (xy 0 -1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin power_in line 
+                (at 0 0 270) 
+                (length 0) 
+                (name "GND" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "Device:Antenna" 
+        (pin_numbers hide) 
+        (pin_names 
+            (offset 1.016) hide) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "AE" 
+            (id 0) 
+            (at -1.905 1.905 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify right))) 
+        (property "Value" "Antenna" 
+            (id 1) 
+            (at -1.905 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify right))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "~" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_keywords" "antenna" 
+            (id 4) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "Antenna" 
+            (id 5) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "Antenna_0_1" 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0 -3.81)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 1.27 2.54) 
+                    (xy 0 -2.54) 
+                    (xy -1.27 2.54)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "Antenna_1_1" 
+            (pin input line 
+                (at 0 -5.08 90) 
+                (length 2.54) 
+                (name "A" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "Conn_SMA_RF2-143-T-17-50-G" 
+        (pin_names hide) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "J" 
+            (id 0) 
+            (at 20.32 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Value" "Conn_SMA_RF2-143-T-17-50-G" 
+            (id 1) 
+            (at 20.32 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Footprint" "antmicro-footprints:RF_SMA_BoardEdge_RF2-143-T-17-50-G" 
+            (id 2) 
+            (at 20.32 -5.08 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "https://www.tme.eu/Document/613028b507cfc72671e78c1d2ad14b1d/RF2-154-T-17-50-G.pdf" 
+            (id 3) 
+            (at 20.32 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "MPN" "RF2-143-T-17-50-G" 
+            (id 4) 
+            (at 20.32 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Manufacturer" "Adam Tech" 
+            (id 5) 
+            (at 20.32 -12.7 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 6) 
+            (at 20.32 -15.24 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 7) 
+            (at 20.32 -17.78 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "ki_keywords" "SMT, SMA, RF, CONNECTOR" 
+            (id 8) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "RF / Coaxial Connector, SMA, Board edge mount, 50Ω " 
+            (id 9) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch*" 
+            (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "Conn_SMA_RF2-143-T-17-50-G_1_1" 
+            (polyline 
+                (pts 
+                    (xy 2.54 0) 
+                    (xy 4.572 0)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 5.08 -2.54) 
+                    (xy 5.08 -1.778)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (arc 
+                (start 3.302 -0.508) 
+                (mid 5.302 -1.808) 
+                (end 6.858 0) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (circle 
+                (center 5.08 0) 
+                (radius 0.508) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (arc 
+                (start 6.858 0) 
+                (mid 5.302 1.8083) 
+                (end 3.302 0.508) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (pin passive line 
+                (at 0 0 0) 
+                (length 2.54) 
+                (name "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at 5.08 -5.08 90) 
+                (length 2.54) 
+                (name "2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "R_50R_0402" 
+        (extends "R_template_name_0402") 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "R" 
+            (id 0) 
+            (at 20.32 -5.08 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Value" "R_50R_0402" 
+            (id 1) 
+            (at 20.32 -12.7 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+            (id 2) 
+            (at 20.32 -15.24 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
+            (id 3) 
+            (at 20.32 -17.78 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "MPN" "CR0402-FX-50R0GLF" 
+            (id 4) 
+            (at 20.32 -20.32 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Manufacturer" "Bourns" 
+            (id 5) 
+            (at 20.32 -22.86 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 6) 
+            (at 20.32 -25.4 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 7) 
+            (at 20.32 -27.94 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Val" "50R" 
+            (id 8) 
+            (at 20.32 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Tolerance" "1%" 
+            (id 9) 
+            (at 20.32 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left bottom) hide)) 
+        (property "ki_description" "SMD Chip Resistor" 
+            (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
+            (id 0) 
+            (at 0 0 0))) 
+    (symbol "R_0R_0201" 
+        (extends "R_template_name_0201") 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "R" 
+            (id 0) 
+            (at 20.32 -5.08 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Value" "R_0R_0201" 
+            (id 1) 
+            (at 20.32 -12.7 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Footprint" "antmicro-footprints:R_0201" 
+            (id 2) 
+            (at 20.32 -15.24 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
+            (id 3) 
+            (at 20.32 -17.78 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "MPN" "CR0201-FX-0R00GLF" 
+            (id 4) 
+            (at 20.32 -20.32 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Manufacturer" "Bourns" 
+            (id 5) 
+            (at 20.32 -22.86 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 6) 
+            (at 20.32 -25.4 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 7) 
+            (at 20.32 -27.94 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Val" "0R" 
+            (id 8) 
+            (at 20.32 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Tolerance" "1%" 
+            (id 9) 
+            (at 20.32 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left bottom) hide)) 
+        (property "ki_description" "SMD Chip Resistor" 
+            (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_keywords" "0603, SMT, RESISTOR, PASSIVE" 
+            (id 0) 
+            (at 0 0 0))) 
+    (symbol "C_100n_0402" 
+        (extends "C_template_name_0402") 
+        (property "Reference" "C" 
+            (id 0) 
+            (at 20.32 -5.08 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Value" "C_100n_0402" 
+            (id 1) 
+            (at 20.32 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Footprint" "antmicro-footprints:C_0402_1005Metric" 
+            (id 2) 
+            (at 20.32 -12.7 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" 
+            (id 3) 
+            (at 20.32 -15.24 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "MPN" "GRM155R61H104KE14D" 
+            (id 4) 
+            (at 20.32 -17.78 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Manufacturer" "Murata" 
+            (id 5) 
+            (at 20.32 -20.32 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 6) 
+            (at 20.32 -22.86 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 7) 
+            (at 20.32 -25.4 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Val" "100n" 
+            (id 8) 
+            (at 20.32 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Voltage" "50V" 
+            (id 9) 
+            (at 20.32 -27.94 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left bottom) hide)) 
+        (property "Dielectric" "X5R" 
+            (id 10) 
+            (at 20.32 -30.48 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left bottom) hide)) 
+        (property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC" 
+            (id 11) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series" 
+            (id 12) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))))

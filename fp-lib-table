@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "si-simulation-test-board-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/si-simulation-test-board-footprints")(options "")(descr ""))
+)
