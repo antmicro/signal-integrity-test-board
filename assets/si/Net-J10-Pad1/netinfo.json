@@ -1,0 +1,37 @@
+{
+  "nets": [
+    {
+      "name": "Net-(J10-Pad1)",
+      "length": "53.753",
+      "width": "0.185",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./Net-J10-Pad1/Z_1.png"
+        ],
+        "smith": [
+          "./Net-J10-Pad1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./Net-J10-Pad1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./Net-J10-Pad1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./Net-J10-Pad1/top_view.png"
+    }
+  ],
+  "metadata": [
+    {
+      "slice-ci-date": "20-03-2025",
+      "slice-script-commit": "07bf7c5",
+      "slice-ci-job": "2142647",
+      "simulation-ci-date": "20-03-2025",
+      "g2e-script-commit": "306ffc4294ed643bb6abb78ed0ed1d898be5707b",
+      "simulation-ci-job": "2143367",
+      "net-simulation-time": "0"
+    }
+  ]
+}

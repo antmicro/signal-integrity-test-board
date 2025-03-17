@@ -1,0 +1,202 @@
+{
+  "nets": [
+    {
+      "name": "Net-(J16-Pad1)",
+      "length": "45.385",
+      "width": "0.185",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./Net-J16-Pad1/Z_1.png"
+        ],
+        "smith": [
+          "./Net-J16-Pad1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./Net-J16-Pad1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./Net-J16-Pad1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./Net-J16-Pad1/top_view.png"
+    },
+    {
+      "name": "Net-(J1-Pad1)",
+      "length": "45.405",
+      "width": "0.185",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./Net-J1-Pad1/Z_1.png"
+        ],
+        "smith": [
+          "./Net-J1-Pad1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./Net-J1-Pad1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./Net-J1-Pad1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./Net-J1-Pad1/top_view.png"
+    },
+    {
+      "name": "Net-(J15-Pad1)",
+      "length": "45.406",
+      "width": "0.185",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./Net-J15-Pad1/Z_1.png"
+        ],
+        "smith": [
+          "./Net-J15-Pad1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./Net-J15-Pad1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./Net-J15-Pad1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./Net-J15-Pad1/top_view.png"
+    },
+    {
+      "name": "Net-(J10-Pad1)",
+      "length": "53.753",
+      "width": "0.185",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./Net-J10-Pad1/Z_1.png"
+        ],
+        "smith": [
+          "./Net-J10-Pad1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./Net-J10-Pad1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./Net-J10-Pad1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./Net-J10-Pad1/top_view.png"
+    },
+    {
+      "name": "Net-(J7-Pad1)",
+      "length": "66.424",
+      "width": "0.185",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./Net-J7-Pad1/Z_1.png"
+        ],
+        "smith": [
+          "./Net-J7-Pad1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./Net-J7-Pad1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./Net-J7-Pad1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./Net-J7-Pad1/top_view.png"
+    },
+    {
+      "name": "unconnected-(J22-Pad1)",
+      "length": "40.000",
+      "width": "0.185",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./unconnected-J22-Pad1/Z_1.png"
+        ],
+        "smith": [
+          "./unconnected-J22-Pad1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./unconnected-J22-Pad1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./unconnected-J22-Pad1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./unconnected-J22-Pad1/top_view.png"
+    },
+    {
+      "name": "unconnected-(J21-Pad1)",
+      "length": "40.000",
+      "width": "0.185",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./unconnected-J21-Pad1/Z_1.png"
+        ],
+        "smith": [
+          "./unconnected-J21-Pad1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./unconnected-J21-Pad1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./unconnected-J21-Pad1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./unconnected-J21-Pad1/top_view.png"
+    },
+    {
+      "name": [
+        "/DIFF_P",
+        "/DIFF_N"
+      ],
+      "length": [
+        "55.384",
+        "55.460"
+      ],
+      "width": [
+        "0.185",
+        "0.185"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./DIFF_Diff/Z_1.png",
+          "./DIFF_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./DIFF_Diff/S_11_smith.png",
+          "./DIFF_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./DIFF_Diff/S_x1.png",
+          "./DIFF_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./DIFF_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./DIFF_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./DIFF_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./DIFF_Diff/s_param_and_smith_1.png",
+          "./DIFF_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./DIFF_Diff/top_view.png"
+    }
+  ]
+}
