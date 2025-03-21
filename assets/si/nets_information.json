@@ -1,158 +1,158 @@
 {
   "nets": [
     {
-      "name": "Net-(J16-Pad1)",
+      "name": "LAYER CHANGE 1",
       "length": "45.385",
       "width": "0.185",
       "impedance": 50.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./Net-J16-Pad1/Z_1.png"
+          "./layer-change-1/Z_1.png"
         ],
         "smith": [
-          "./Net-J16-Pad1/S_11_smith.png"
+          "./layer-change-1/S_11_smith.png"
         ],
         "s-param": [
-          "./Net-J16-Pad1/S_x1.png"
+          "./layer-change-1/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./Net-J16-Pad1/s_param_and_smith_1.png"
+          "./layer-change-1/s_param_and_smith_1.png"
         ]
       },
-      "image": "./Net-J16-Pad1/top_view.png"
+      "image": "./layer-change-1/top_view.png"
     },
     {
-      "name": "Net-(J1-Pad1)",
+      "name": "PASS",
       "length": "45.405",
       "width": "0.185",
       "impedance": 50.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./Net-J1-Pad1/Z_1.png"
+          "./pass/Z_1.png"
         ],
         "smith": [
-          "./Net-J1-Pad1/S_11_smith.png"
+          "./pass/S_11_smith.png"
         ],
         "s-param": [
-          "./Net-J1-Pad1/S_x1.png"
+          "./pass/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./Net-J1-Pad1/s_param_and_smith_1.png"
+          "./pass/s_param_and_smith_1.png"
         ]
       },
-      "image": "./Net-J1-Pad1/top_view.png"
+      "image": "./pass/top_view.png"
     },
     {
-      "name": "Net-(J15-Pad1)",
+      "name": "LAYER CHANGE 2",
       "length": "45.406",
       "width": "0.185",
       "impedance": 50.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./Net-J15-Pad1/Z_1.png"
+          "./layer-change-2/Z_1.png"
         ],
         "smith": [
-          "./Net-J15-Pad1/S_11_smith.png"
+          "./layer-change-2/S_11_smith.png"
         ],
         "s-param": [
-          "./Net-J15-Pad1/S_x1.png"
+          "./layer-change-2/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./Net-J15-Pad1/s_param_and_smith_1.png"
+          "./layer-change-2/s_param_and_smith_1.png"
         ]
       },
-      "image": "./Net-J15-Pad1/top_view.png"
+      "image": "./layer-change-2/top_view.png"
     },
     {
-      "name": "Net-(J10-Pad1)",
+      "name": "SHORT STUB",
       "length": "53.753",
       "width": "0.185",
       "impedance": 50.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./Net-J10-Pad1/Z_1.png"
+          "./short-stub/Z_1.png"
         ],
         "smith": [
-          "./Net-J10-Pad1/S_11_smith.png"
+          "./short-stub/S_11_smith.png"
         ],
         "s-param": [
-          "./Net-J10-Pad1/S_x1.png"
+          "./short-stub/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./Net-J10-Pad1/s_param_and_smith_1.png"
+          "./short-stub/s_param_and_smith_1.png"
         ]
       },
-      "image": "./Net-J10-Pad1/top_view.png"
+      "image": "./short-stub/top_view.png"
     },
     {
-      "name": "Net-(J7-Pad1)",
+      "name": "LONG STUB",
       "length": "66.424",
       "width": "0.185",
       "impedance": 50.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./Net-J7-Pad1/Z_1.png"
+          "./long-stub/Z_1.png"
         ],
         "smith": [
-          "./Net-J7-Pad1/S_11_smith.png"
+          "./long-stub/S_11_smith.png"
         ],
         "s-param": [
-          "./Net-J7-Pad1/S_x1.png"
+          "./long-stub/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./Net-J7-Pad1/s_param_and_smith_1.png"
+          "./long-stub/s_param_and_smith_1.png"
         ]
       },
-      "image": "./Net-J7-Pad1/top_view.png"
+      "image": "./long-stub/top_view.png"
     },
     {
-      "name": "unconnected-(J22-Pad1)",
+      "name": "TIGHT MEANDER",
       "length": "40.000",
       "width": "0.185",
       "impedance": 50.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./unconnected-J22-Pad1/Z_1.png"
+          "./tight-meander/Z_1.png"
         ],
         "smith": [
-          "./unconnected-J22-Pad1/S_11_smith.png"
+          "./tight-meander/S_11_smith.png"
         ],
         "s-param": [
-          "./unconnected-J22-Pad1/S_x1.png"
+          "./tight-meander/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./unconnected-J22-Pad1/s_param_and_smith_1.png"
+          "./tight-meander/s_param_and_smith_1.png"
         ]
       },
-      "image": "./unconnected-J22-Pad1/top_view.png"
+      "image": "./tight-meander/top_view.png"
     },
     {
-      "name": "unconnected-(J21-Pad1)",
+      "name": "LOOSE MEANDER",
       "length": "40.000",
       "width": "0.185",
       "impedance": 50.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./unconnected-J21-Pad1/Z_1.png"
+          "./loose-meander/Z_1.png"
         ],
         "smith": [
-          "./unconnected-J21-Pad1/S_11_smith.png"
+          "./loose-meander/S_11_smith.png"
         ],
         "s-param": [
-          "./unconnected-J21-Pad1/S_x1.png"
+          "./loose-meander/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./unconnected-J21-Pad1/s_param_and_smith_1.png"
+          "./loose-meander/s_param_and_smith_1.png"
         ]
       },
-      "image": "./unconnected-J21-Pad1/top_view.png"
+      "image": "./loose-meander/top_view.png"
     },
     {
       "name": [
@@ -171,32 +171,32 @@
       "diff": true,
       "charts": {
         "impedance": [
-          "./DIFF_Diff/Z_1.png",
-          "./DIFF_Diff/Z_3.png"
+          "./diff_pair/Z_1.png",
+          "./diff_pair/Z_3.png"
         ],
         "smith": [
-          "./DIFF_Diff/S_11_smith.png",
-          "./DIFF_Diff/S_33_smith.png"
+          "./diff_pair/S_11_smith.png",
+          "./diff_pair/S_33_smith.png"
         ],
         "s-param": [
-          "./DIFF_Diff/S_x1.png",
-          "./DIFF_Diff/S_x3.png"
+          "./diff_pair/S_x1.png",
+          "./diff_pair/S_x3.png"
         ],
         "diff_delay": [
-          "./DIFF_Diff/diff_delay.png"
+          "./diff_pair/diff_delay.png"
         ],
         "diff_impedance": [
-          "./DIFF_Diff/Z_diff.png"
+          "./diff_pair/Z_diff.png"
         ],
         "diff_s-param": [
-          "./DIFF_Diff/SDD_Diff.png"
+          "./diff_pair/SDD_Diff.png"
         ],
         "s-param_and_smith": [
-          "./DIFF_Diff/s_param_and_smith_1.png",
-          "./DIFF_Diff/s_param_and_smith_3.png"
+          "./diff_pair/s_param_and_smith_1.png",
+          "./diff_pair/s_param_and_smith_3.png"
         ]
       },
-      "image": "./DIFF_Diff/top_view.png"
+      "image": "./diff_pair/top_view.png"
     }
   ]
 }
